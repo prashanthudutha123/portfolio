@@ -25,7 +25,7 @@ body::before {
   background:
     radial-gradient(circle at top left, rgba(0,255,255,0.15), transparent 50%),
     radial-gradient(circle at bottom right, rgba(255,111,97,0.15), transparent 50%),
-    url("bg.jpg") center/cover no-repeat;  /* add bg.jpg in same folder */
+    url("bg.jpg") center/cover no-repeat;  
   filter: blur(1px);
   opacity: 0.35;
   z-index: -3;
@@ -108,7 +108,7 @@ section.visible {
 .hero {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;  /* align image with buttons */
+  align-items: flex-start; 
   flex-wrap: wrap;
   gap: 40px;
   max-width: 1120px;
